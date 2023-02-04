@@ -59,12 +59,12 @@ header .logo a {
     font-size: 16px;
 }
 
-.topnav li:last-child {
-    padding-right: 0%;
-}
-
 cite {
     font-family: IM Fell DW Pica;
+}
+
+.header {
+    height: 0;
 }
 
 .topnav {
@@ -72,7 +72,6 @@ cite {
     color: aliceblue;
     margin: 10px 0 0 0;
     text-align: center;
-    padding: 0;
 }
 
 section header {
@@ -266,35 +265,18 @@ footer {
         font-size: 16px;
         line-height: 36px;
     }
+
+    footer {
+        font-size: 10px;
+    }
+    header .logo a {
+        height: 50px;
+	    width: 60px;
+        background-size: 50px;
+    }
 }
 
 @media screen and (max-width: 600px) {
-    .topnav li {
-        font-size: 12px;
-    }
-
-    section nav {
-        font-size: 14px;
-        line-height: 26px;
-    }
-
-    section .mybutton {
-        font-size: 12px;
-    }
-
-    section .mybutton:hover {
-        background: white;
-        font-size: 14px;
-        margin-top: 29px;
-    }
-}
-
-@media screen and (max-width: 300px) {
-    .topnav li {
-        display: list-item;
-        font-size: 12px;
-        padding-right: 0;
-    }
 
     section nav {
         font-size: 14px;
