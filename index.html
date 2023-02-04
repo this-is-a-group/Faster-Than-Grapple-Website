@@ -13,7 +13,7 @@
         
         <header>
             <h1 style="font-family: IM Fell DW Pica;">
-                “<abbr title="You're supposed to be scared dumbass">NI</abbr>
+                “<abbr title="You're supposed to be scared">NI</abbr>
             </h1>
             <ul class="topnav">
                 <li>
@@ -24,12 +24,16 @@
                 </li>
             </ul>
         </header>
-        <section class="screenCenteredTitle">
-            <div>
-                <p>
-                    We are a group.
-                </p>
-            </div>
+        <section>
+            <header class="title">
+                We are a group.
+            </header>
+            <script>
+                var node = document.createElement('p');
+                node.appendChild(document.createTextNode(Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)));
+                
+                document.querySelector('section').appendChild(node);
+            </script>
         </section>
         <section>
             <header>
@@ -47,7 +51,7 @@
                 Section 2
             </p>
         </section>
-        <section class="paragraph">
+        <section>
             <p>
                 &uArr; &ecolon;
                 Cupcake ipsum dolor sit amet cake croissant fruitcake muffin. Sweet bonbon candy powder cheesecake muffin sesame snaps jujubes. Muffin macaroon cheesecake cookie souffl&eacute; cookie cheesecake lollipop candy canes. Halvah cotton candy sesame snaps chocolate bar. Sugar plum dessert drag&eacute;e macaroon chupa chups. Cake cheesecake wafer cotton candy. Danish jelly halvah jelly beans tootsie roll donut. Halvah cheesecake halvah jujubes sweet roll biscuit croissant wafer. Cake halvah chocolate bar sugar plum apple pie.
